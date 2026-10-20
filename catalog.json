@@ -26,15 +26,15 @@
       "name": "Opsentra 客户端 · Windows x64",
       "category": "desktop",
       "description": "连接平台托管会话；带新桥接注册逻辑的完整版本可为浏览器提供本机文件桥接。",
-      "version": "",
+      "version": "0.2.1",
       "platforms": [
         "windows"
       ],
       "architecture": "x64",
-      "status": "draft",
-      "download_url": "",
-      "sha256": "",
-      "installation": "待新客户端构建、校验及发布后开放下载。此前的 0.2.0 安装包不会自动获得新的桥接代码。"
+      "status": "published",
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/desktop-v0.2.1/Opsentra-Windows-x64-0.2.1.zip",
+      "sha256": "10448563aa286e09ea717a223c28973e4c77f9a0049642e2acee0bf18d6ef639",
+      "installation": "测试版：完整解压后双击 Opsentra-win32-x64/Opsentra.exe，自动注册当前用户本机桥接；再从平台网页“客户端打开”确认来源。macOS 交叉打包，Windows 实机待验收，未作正式代码签名。"
     },
     {
       "id": "desktop-macos-arm64",

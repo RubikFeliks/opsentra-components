@@ -1,7 +1,8 @@
 # Opsentra Components
 
 - [浏览器剪贴板扩展 0.2.0 测试版](https://github.com/RubikFeliks/opsentra-components/releases/tag/clipboard-v0.2.0)
-- 组件目录：`catalog.json`（已发布扩展可下载，客户端条目待发布）
+- [Windows x64 0.2.1 客户端与本机桥接（测试版）](https://github.com/RubikFeliks/opsentra-components/releases/tag/desktop-v0.2.1)
+- 组件目录：`catalog.json`（扩展及 Windows 测试包已发布，macOS 新版待发布）
 
 Opsentra 独立组件目录与客户端分发仓库。业务后台与部署代码保留在 [Opsentra](https://github.com/RubikFeliks/Opsentra)。
 
@@ -23,7 +24,7 @@ Opsentra 独立组件目录与客户端分发仓库。业务后台与部署代�
 
 ## 安全与授权
 
-首次扩展发布为 `clipboard-v0.2.0` 测试版。Windows/macOS 客户端条目仍保留待发布，旧包不包含本次新增桥接注册逻辑。
+首次扩展发布为 `clipboard-v0.2.0` 测试版。Windows 0.2.1 配套客户端已提供测试构建，包含启动时桥接自动注册；本次 Windows 实机验收待完成，未作 Authenticode 正式签名。macOS 新版条目仍待发布，旧 0.2.0 包不包含本次新增桥接注册逻辑。
 
 这里只放可公开的发行内容，不放平台配置、登录令牌、证书私钥、数据库或用户文件。浏览器扩展依然需要首次授权，GitHub ZIP 下载不等于官方商店一键安装。正式上架后扩展 ID 必须与本机桥接允许的身份一致。
 
