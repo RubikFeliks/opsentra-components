@@ -1,5 +1,8 @@
 # Opsentra Components
 
+- [浏览器剪贴板扩展 0.2.0 测试版](https://github.com/RubikFeliks/opsentra-components/releases/tag/clipboard-v0.2.0)
+- 组件目录：`catalog.json`（已发布扩展可下载，客户端条目待发布）
+
 Opsentra 独立组件目录与客户端分发仓库。业务后台与部署代码保留在 [Opsentra](https://github.com/RubikFeliks/Opsentra)。
 
 ## 目录

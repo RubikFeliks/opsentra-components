@@ -16,8 +16,8 @@
         "chrome",
         "edge"
       ],
-      "status": "draft",
-      "download_url": "",
+      "status": "published",
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/clipboard-v0.2.0/Opsentra-Clipboard-Chromium-0.2.0.zip",
       "sha256": "63dbf2f4f205f794a8bd049be25e805069f2c4a64417700f2c3937351bb7c028",
       "installation": "解压 ZIP，在浏览器扩展管理页加载；按工作台指引授权平台。"
     },

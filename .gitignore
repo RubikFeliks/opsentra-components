@@ -1,0 +1,6 @@
+release-assets/
+.DS_Store
+*.key
+*.pem
+.env
+node_modules/
