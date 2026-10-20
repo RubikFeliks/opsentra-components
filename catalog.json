@@ -65,6 +65,51 @@
       "download_url": "",
       "sha256": "",
       "installation": "待新客户端构建、校验及发布后开放下载。此前的 0.2.0 安装包不会自动获得新的桥接代码。"
+    },
+    {
+      "id": "bridge-windows-x64",
+      "name": "独立轻量桥接 · Windows x64",
+      "category": "bridge",
+      "description": "纯网页文件复制粘贴，无需远程客户端或 Electron；按需启动，无常驻服务。",
+      "version": "0.2.2",
+      "platforms": [
+        "windows"
+      ],
+      "architecture": "x64",
+      "status": "published",
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.2/Opsentra-Clipboard-Bridge-Windows-x64-0.2.2.zip",
+      "sha256": "c3378e7947cff2940e5d6436a9a9e501b9c92f5c9b11e73836edb16d5ba450d7",
+      "installation": "测试版，未正式签名/公证，实机验收待完成。解压后 Windows 运行 Install.cmd，macOS 运行 Install.command，确认平台地址和 YES；再在现有 0.2.0 扩展保存同一地址并检测。"
+    },
+    {
+      "id": "bridge-macos-arm64",
+      "name": "独立轻量桥接 · macOS Apple Silicon",
+      "category": "bridge",
+      "description": "纯网页文件复制粘贴，无需远程客户端或 Electron；按需启动，无常驻服务。",
+      "version": "0.2.2",
+      "platforms": [
+        "macos"
+      ],
+      "architecture": "arm64",
+      "status": "published",
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.2/Opsentra-Clipboard-Bridge-macOS-arm64-0.2.2.zip",
+      "sha256": "d13fc72a6918aea2ad40e59d2e5a6b145b3034d5ac0a03f7c8320e079d493997",
+      "installation": "测试版，未正式签名/公证，实机验收待完成。解压后 Windows 运行 Install.cmd，macOS 运行 Install.command，确认平台地址和 YES；再在现有 0.2.0 扩展保存同一地址并检测。"
+    },
+    {
+      "id": "bridge-macos-x64",
+      "name": "独立轻量桥接 · macOS Intel",
+      "category": "bridge",
+      "description": "纯网页文件复制粘贴，无需远程客户端或 Electron；按需启动，无常驻服务。",
+      "version": "0.2.2",
+      "platforms": [
+        "macos"
+      ],
+      "architecture": "x64",
+      "status": "published",
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.2/Opsentra-Clipboard-Bridge-macOS-x64-0.2.2.zip",
+      "sha256": "790d94d12a1a4ed6167136270f53224843c3dafba33d623bc3c66a73a6ed51d8",
+      "installation": "测试版，未正式签名/公证，实机验收待完成。解压后 Windows 运行 Install.cmd，macOS 运行 Install.command，确认平台地址和 YES；再在现有 0.2.0 扩展保存同一地址并检测。"
     }
   ]
 }

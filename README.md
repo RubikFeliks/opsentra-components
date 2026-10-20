@@ -2,6 +2,7 @@
 
 - [浏览器剪贴板扩展 0.2.0 测试版](https://github.com/RubikFeliks/opsentra-components/releases/tag/clipboard-v0.2.0)
 - [Windows x64 0.2.1 客户端与本机桥接（测试版）](https://github.com/RubikFeliks/opsentra-components/releases/tag/desktop-v0.2.1)
+- [独立轻量桥接 0.2.2（Windows / macOS 测试版）](https://github.com/RubikFeliks/opsentra-components/releases/tag/bridge-v0.2.2)
 - 组件目录：`catalog.json`（扩展及 Windows 测试包已发布，macOS 新版待发布）
 
 Opsentra 独立组件目录与客户端分发仓库。业务后台与部署代码保留在 [Opsentra](https://github.com/RubikFeliks/Opsentra)。
@@ -29,3 +30,7 @@ Opsentra 独立组件目录与客户端分发仓库。业务后台与部署代�
 这里只放可公开的发行内容，不放平台配置、登录令牌、证书私钥、数据库或用户文件。浏览器扩展依然需要首次授权，GitHub ZIP 下载不等于官方商店一键安装。正式上架后扩展 ID 必须与本机桥接允许的身份一致。
 
 当前仓库初始化材料未替项目指定开源许可证；公开源码不等于自动授予特定开源许可。请由维护者选择许可证，并保留各发行包中的 Electron/Chromium 等第三方许可与声明。
+
+## 网页用户的独立桥接
+
+纯网页用户可安装约 1.3–1.5 MB 的独立桥接，无需完整远程客户端。解压运行 Install.cmd / Install.command，确认平台地址，再配置现有 0.2.0 扩展即可。桌面用户可继续使用内置桥接。新桌面源码 0.2.2 增加共存处理，旧 0.2.1 未自动更新；如覆盖注册，重新运行独立安装器。独立包未正式签名/公证，真实浏览器验收仍待完成，细节见包内 README。
