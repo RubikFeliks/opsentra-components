@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/RubikFeliks/opsentra-components",
+  "components": [
+    {
+      "id": "clipboard-chromium",
+      "name": "浏览器文件剪贴板扩展",
+      "category": "extension",
+      "description": "Chrome / Edge 的文件复制粘贴扩展，需要配套本机桥接。",
+      "version": "0.2.0",
+      "platforms": [
+        "windows",
+        "macos"
+      ],
+      "browsers": [
+        "chrome",
+        "edge"
+      ],
+      "status": "draft",
+      "download_url": "",
+      "sha256": "63dbf2f4f205f794a8bd049be25e805069f2c4a64417700f2c3937351bb7c028",
+      "installation": "解压 ZIP，在浏览器扩展管理页加载；按工作台指引授权平台。"
+    },
+    {
+      "id": "desktop-windows-x64",
+      "name": "Opsentra 客户端 · Windows x64",
+      "category": "desktop",
+      "description": "连接平台托管会话；带新桥接注册逻辑的完整版本可为浏览器提供本机文件桥接。",
+      "version": "",
+      "platforms": [
+        "windows"
+      ],
+      "architecture": "x64",
+      "status": "draft",
+      "download_url": "",
+      "sha256": "",
+      "installation": "待新客户端构建、校验及发布后开放下载。此前的 0.2.0 安装包不会自动获得新的桥接代码。"
+    },
+    {
+      "id": "desktop-macos-arm64",
+      "name": "Opsentra 客户端 · macOS Apple Silicon",
+      "category": "desktop",
+      "description": "连接平台托管会话；带新桥接注册逻辑的完整版本可为浏览器提供本机文件桥接。",
+      "version": "",
+      "platforms": [
+        "macos"
+      ],
+      "architecture": "arm64",
+      "status": "draft",
+      "download_url": "",
+      "sha256": "",
+      "installation": "待新客户端构建、校验及发布后开放下载。此前的 0.2.0 安装包不会自动获得新的桥接代码。"
+    },
+    {
+      "id": "desktop-macos-x64",
+      "name": "Opsentra 客户端 · macOS Intel",
+      "category": "desktop",
+      "description": "连接平台托管会话；带新桥接注册逻辑的完整版本可为浏览器提供本机文件桥接。",
+      "version": "",
+      "platforms": [
+        "macos"
+      ],
+      "architecture": "x64",
+      "status": "draft",
+      "download_url": "",
+      "sha256": "",
+      "installation": "待新客户端构建、校验及发布后开放下载。此前的 0.2.0 安装包不会自动获得新的桥接代码。"
+    }
+  ]
+}
