@@ -34,3 +34,7 @@ Opsentra 独立组件目录与客户端分发仓库。业务后台与部署代�
 ## 网页用户的独立桥接
 
 纯网页用户可安装约 1.3–1.5 MB 的独立桥接，无需完整远程客户端。解压运行 Install.cmd / Install.command，确认平台地址，再配置现有 0.2.0 扩展即可。桌面用户可继续使用内置桥接。新桌面源码 0.2.2 增加共存处理，旧 0.2.1 未自动更新；如覆盖注册，重新运行独立安装器。独立包未正式签名/公证，真实浏览器验收仍待完成，细节见包内 README。
+
+## Windows RDP 目标端会话组件
+
+[0.1.0 测试包和安装前提](https://github.com/RubikFeliks/opsentra-components/releases/tag/windows-session-agent-v0.1.0)。安装在被连接的 Windows 上，和用户侧轻量桥接分开。先更新平台并迁移到 0046，在对应资产连接配置下载账号绑定 JSON，再以该 Windows 用户安装。绑定 JSON 含专用密钥，不应放入本仓库。Windows 实机验收及正式签名仍待完成。

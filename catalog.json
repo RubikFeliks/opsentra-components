@@ -110,6 +110,21 @@
       "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.2/Opsentra-Clipboard-Bridge-macOS-x64-0.2.2.zip",
       "sha256": "790d94d12a1a4ed6167136270f53224843c3dafba33d623bc3c66a73a6ed51d8",
       "installation": "测试版，未正式签名/公证，实机验收待完成。解压后 Windows 运行 Install.cmd，macOS 运行 Install.command，确认平台地址和 YES；再在现有 0.2.0 扩展保存同一地址并检测。"
+    },
+    {
+      "id": "windows-target-session-agent",
+      "name": "Windows RDP 目标端文件剪贴板组件",
+      "category": "target-agent",
+      "description": "装在被连接的 Windows 上，补齐对应 RDP 用户会话的文件剪贴板。不是用户电脑的轻量桥接。",
+      "version": "0.1.0",
+      "platforms": [
+        "windows"
+      ],
+      "architecture": "x64",
+      "status": "published",
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/windows-session-agent-v0.1.0/Opsentra-Windows-Session-Agent-x64-0.1.0.zip",
+      "sha256": "997fe6f9c8c736acffb495ae4c35e2d9b5d0b3e2da243f866355fafcbe5482d6",
+      "installation": "未正式签名的测试包，Windows 实机验收待完成。先更新平台到迁移0046，在资产连接配置生成专用绑定JSON，再以目标RDP账号运行 Install-Session-Agent.cmd。详情见Release与包内README。"
     }
   ]
 }
