@@ -1,3 +1,5 @@
+> **Windows 网页文件剪贴板更新：** [独立桥接 0.2.3 下载与安装](https://github.com/RubikFeliks/opsentra-components/releases/tag/bridge-v0.2.3)，修复中文及多语言文件路径，并包含剪贴板占用重试。配合浏览器扩展 0.2.1；Windows 原生编译及多语言剪贴板管道测试已通过，完整 RDP 双向复制仍需实机验收。macOS 暂用 0.2.2。下面旧版下载链接保留供历史查询。
+
 # Opsentra Components
 
 - [浏览器剪贴板扩展 0.2.0 测试版](https://github.com/RubikFeliks/opsentra-components/releases/tag/clipboard-v0.2.0)
