@@ -71,15 +71,15 @@
       "name": "独立轻量桥接 · Windows x64",
       "category": "bridge",
       "description": "纯网页文件复制粘贴，无需远程客户端或 Electron；按需启动，无常驻服务。",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "platforms": [
         "windows"
       ],
       "architecture": "x64",
       "status": "published",
-      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.2/Opsentra-Clipboard-Bridge-Windows-x64-0.2.2.zip",
-      "sha256": "c3378e7947cff2940e5d6436a9a9e501b9c92f5c9b11e73836edb16d5ba450d7",
-      "installation": "测试版，未正式签名/公证，实机验收待完成。解压后 Windows 运行 Install.cmd，macOS 运行 Install.command，确认平台地址和 YES；再在现有 0.2.0 扩展保存同一地址并检测。"
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.3/Opsentra-Clipboard-Bridge-Windows-x64-0.2.3.zip",
+      "sha256": "5f736348388e14b992ca35ef197469cf9549761aeb562ea2331d6c7639447022",
+      "installation": "Windows 原生编译测试版，已通过多语言文件名真实剪贴板 UTF-8 管道往返测试，未正式签名。关闭工作台，解压后运行 Install.cmd，以同一用户确认原平台地址；配合扩展 0.2.1。完整 RDP 复制仍需目标环境验收。"
     },
     {
       "id": "bridge-macos-arm64",
