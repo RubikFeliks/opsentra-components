@@ -34,7 +34,10 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force .local/helper | Out-Null
-          & "$env:WINDIR/Microsoft.NET/Framework64/v4.0.30319/csc.exe" /nologo /target:exe /reference:System.Windows.Forms.dll /reference:System.Web.Extensions.dll /out:.local/helper/OpsentraClipboard.exe desktop-client/native/ClipboardWindows.cs
+          $compiler = Join-Path $env:WINDIR "Microsoft.NET\Framework64\v4.0.30319\csc.exe"
+          $source = (Resolve-Path "desktop-client/native/ClipboardWindows.cs").Path
+          $output = Join-Path (Get-Location) ".local\helper\OpsentraClipboard.exe"
+          & $compiler /nologo /target:exe /reference:System.Windows.Forms.dll /reference:System.Web.Extensions.dll ("/out:" + $output) $source
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Real Windows clipboard Unicode pipe round-trip
         run: python scripts/test_windows_clipboard_helper.py --helper .local/helper/OpsentraClipboard.exe
