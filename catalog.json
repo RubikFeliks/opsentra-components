@@ -7,7 +7,7 @@
       "name": "浏览器文件剪贴板扩展",
       "category": "extension",
       "description": "Chrome / Edge 的文件复制粘贴扩展，需要配套本机桥接。",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "platforms": [
         "windows",
         "macos"
@@ -17,8 +17,8 @@
         "edge"
       ],
       "status": "published",
-      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/clipboard-v0.2.0/Opsentra-Clipboard-Chromium-0.2.0.zip",
-      "sha256": "63dbf2f4f205f794a8bd049be25e805069f2c4a64417700f2c3937351bb7c028",
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/clipboard-v0.2.1/Opsentra-Clipboard-Chromium-0.2.1.zip",
+      "sha256": "46b228fa5f75c39cf15026c18f2e125070383444e2dd0e537f496ec271528269",
       "installation": "解压 ZIP，在浏览器扩展管理页加载；按工作台指引授权平台。"
     },
     {
