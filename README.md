@@ -1,11 +1,11 @@
-> **Windows 网页文件剪贴板更新：** [独立桥接 0.2.3 下载与安装](https://github.com/RubikFeliks/opsentra-components/releases/tag/bridge-v0.2.3)，修复中文及多语言文件路径，并包含剪贴板占用重试。配合浏览器扩展 0.2.1；Windows 原生编译及多语言剪贴板管道测试已通过，完整 RDP 双向复制仍需实机验收。macOS 暂用 0.2.2。下面旧版下载链接保留供历史查询。
+> **2026-10-22 文件剪贴板修复：** [扩展 0.2.2](https://github.com/RubikFeliks/opsentra-components/releases/tag/clipboard-v0.2.2) + [独立桥接 0.2.4（Windows / macOS 两架构）](https://github.com/RubikFeliks/opsentra-components/releases/tag/bridge-v0.2.4)。在复制快捷键发生时登记本次操作，修复取文件较慢/切回桌面导致授权失效；扩展恢复后检测桥接会修复已打开的已授权工作台。需要更新平台应用，首次从旧版升级刷新工作台一次并新建 RDP 会话，复制完成提示后再粘贴。完整桌面客户端旧包不会自动获得本修复，纯网页可使用独立桥接。各构建及协议测试通过，完整 Windows/macOS 浏览器/RDP 连续双向复制仍需实机验收；测试包未正式签名/公证。ZIP 解压加载受开发者模式及组织策略约束，不等于商店安装。普通文件上传下载不依赖扩展。
 
 # Opsentra Components
 
-- [浏览器剪贴板扩展 0.2.0 测试版](https://github.com/RubikFeliks/opsentra-components/releases/tag/clipboard-v0.2.0)
+- [浏览器剪贴板扩展 0.2.2 测试版](https://github.com/RubikFeliks/opsentra-components/releases/tag/clipboard-v0.2.2)
 - [Windows x64 0.2.1 客户端与本机桥接（测试版）](https://github.com/RubikFeliks/opsentra-components/releases/tag/desktop-v0.2.1)
-- [独立轻量桥接 0.2.2（Windows / macOS 测试版）](https://github.com/RubikFeliks/opsentra-components/releases/tag/bridge-v0.2.2)
-- 组件目录：`catalog.json`（扩展及 Windows 测试包已发布，macOS 新版待发布）
+- [独立轻量桥接 0.2.4（Windows / macOS 测试版）](https://github.com/RubikFeliks/opsentra-components/releases/tag/bridge-v0.2.4)
+- 组件目录：`catalog.json`（扩展 0.2.2、Windows/macOS 独立桥接 0.2.4 已发布；完整桌面客户端仍为原版本）
 
 Opsentra 独立组件目录与客户端分发仓库。业务后台与部署代码保留在 [Opsentra](https://github.com/RubikFeliks/Opsentra)。
 
@@ -35,7 +35,7 @@ Opsentra 独立组件目录与客户端分发仓库。业务后台与部署代�
 
 ## 网页用户的独立桥接
 
-纯网页用户可安装约 1.3–1.5 MB 的独立桥接，无需完整远程客户端。解压运行 Install.cmd / Install.command，确认平台地址，再配置现有 0.2.0 扩展即可。桌面用户可继续使用内置桥接。新桌面源码 0.2.2 增加共存处理，旧 0.2.1 未自动更新；如覆盖注册，重新运行独立安装器。独立包未正式签名/公证，真实浏览器验收仍待完成，细节见包内 README。
+纯网页用户可安装约 1.3–1.5 MB 的独立桥接，无需完整远程客户端。解压运行 Install.cmd / Install.command，确认平台地址，再配置 0.2.2 扩展即可。桌面用户可继续使用内置桥接。新桌面源码 0.2.2 增加共存处理，旧 0.2.1 未自动更新；如覆盖注册，重新运行独立安装器。独立包未正式签名/公证，真实浏览器验收仍待完成，细节见包内 README。
 
 ## Windows RDP 目标端会话组件
 

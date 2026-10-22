@@ -7,7 +7,7 @@
       "name": "浏览器文件剪贴板扩展",
       "category": "extension",
       "description": "Chrome / Edge 的文件复制粘贴扩展，需要配套本机桥接。",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "platforms": [
         "windows",
         "macos"
@@ -17,9 +17,9 @@
         "edge"
       ],
       "status": "published",
-      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/clipboard-v0.2.1/Opsentra-Clipboard-Chromium-0.2.1.zip",
-      "sha256": "46b228fa5f75c39cf15026c18f2e125070383444e2dd0e537f496ec271528269",
-      "installation": "解压 ZIP，在浏览器扩展管理页加载；按工作台指引授权平台。"
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/clipboard-v0.2.2/Opsentra-Clipboard-Chromium-0.2.2.zip",
+      "sha256": "07df22a92ef312134e52b514e4432e275d5d2a8dc4fce251a75832af76f965e7",
+      "installation": "测试包：配合平台更新、扩展 0.2.2 与独立桥接 0.2.4；首次升级刷新工作台一次。扩展恢复后检测桥接可修复已授权页面。完整连续 RDP 双向复制仍需实机验收。"
     },
     {
       "id": "desktop-windows-x64",
@@ -71,45 +71,45 @@
       "name": "独立轻量桥接 · Windows x64",
       "category": "bridge",
       "description": "纯网页文件复制粘贴，无需远程客户端或 Electron；按需启动，无常驻服务。",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "platforms": [
         "windows"
       ],
       "architecture": "x64",
       "status": "published",
-      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.3/Opsentra-Clipboard-Bridge-Windows-x64-0.2.3.zip",
-      "sha256": "5f736348388e14b992ca35ef197469cf9549761aeb562ea2331d6c7639447022",
-      "installation": "Windows 原生编译测试版，已通过多语言文件名真实剪贴板 UTF-8 管道往返测试，未正式签名。关闭工作台，解压后运行 Install.cmd，以同一用户确认原平台地址；配合扩展 0.2.1。完整 RDP 复制仍需目标环境验收。"
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.4/Opsentra-Clipboard-Bridge-Windows-x64-0.2.4.zip",
+      "sha256": "a66feec4042c18f921b451246666740a336903d506a44c431f4c6ed02cf52065",
+      "installation": "测试包：配合平台更新、扩展 0.2.2 与独立桥接 0.2.4；首次升级刷新工作台一次。扩展恢复后检测桥接可修复已授权页面。完整连续 RDP 双向复制仍需实机验收。"
     },
     {
       "id": "bridge-macos-arm64",
       "name": "独立轻量桥接 · macOS Apple Silicon",
       "category": "bridge",
       "description": "纯网页文件复制粘贴，无需远程客户端或 Electron；按需启动，无常驻服务。",
-      "version": "0.2.2",
+      "version": "0.2.4",
       "platforms": [
         "macos"
       ],
       "architecture": "arm64",
       "status": "published",
-      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.2/Opsentra-Clipboard-Bridge-macOS-arm64-0.2.2.zip",
-      "sha256": "d13fc72a6918aea2ad40e59d2e5a6b145b3034d5ac0a03f7c8320e079d493997",
-      "installation": "测试版，未正式签名/公证，实机验收待完成。解压后 Windows 运行 Install.cmd，macOS 运行 Install.command，确认平台地址和 YES；再在现有 0.2.0 扩展保存同一地址并检测。"
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.4/Opsentra-Clipboard-Bridge-macOS-arm64-0.2.4.zip",
+      "sha256": "b4af25e336ce86d4531bebf06c908a22ca165c90b171de809bc4ebf86801e6f9",
+      "installation": "测试包：配合平台更新、扩展 0.2.2 与独立桥接 0.2.4；首次升级刷新工作台一次。扩展恢复后检测桥接可修复已授权页面。完整连续 RDP 双向复制仍需实机验收。"
     },
     {
       "id": "bridge-macos-x64",
       "name": "独立轻量桥接 · macOS Intel",
       "category": "bridge",
       "description": "纯网页文件复制粘贴，无需远程客户端或 Electron；按需启动，无常驻服务。",
-      "version": "0.2.2",
+      "version": "0.2.4",
       "platforms": [
         "macos"
       ],
       "architecture": "x64",
       "status": "published",
-      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.2/Opsentra-Clipboard-Bridge-macOS-x64-0.2.2.zip",
-      "sha256": "790d94d12a1a4ed6167136270f53224843c3dafba33d623bc3c66a73a6ed51d8",
-      "installation": "测试版，未正式签名/公证，实机验收待完成。解压后 Windows 运行 Install.cmd，macOS 运行 Install.command，确认平台地址和 YES；再在现有 0.2.0 扩展保存同一地址并检测。"
+      "download_url": "https://github.com/RubikFeliks/opsentra-components/releases/download/bridge-v0.2.4/Opsentra-Clipboard-Bridge-macOS-x64-0.2.4.zip",
+      "sha256": "8167529b1340c02fb837ee1d44e38cd0b3fedf64e118999e906816a5eb55e432",
+      "installation": "测试包：配合平台更新、扩展 0.2.2 与独立桥接 0.2.4；首次升级刷新工作台一次。扩展恢复后检测桥接可修复已授权页面。完整连续 RDP 双向复制仍需实机验收。"
     },
     {
       "id": "windows-target-session-agent",
